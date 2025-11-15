@@ -20,4 +20,4 @@ for i in range(n-2):    #Loop starts from 2 as already frst 2 numbers are fixed
 #
 # print(*fib[:n])
 
-i
+

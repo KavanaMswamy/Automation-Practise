@@ -1,6 +1,5 @@
 from selenium import webdriver  #imports required modules - to control browser
 from selenium.webdriver.chrome.service import Service   #to manage chromedriver process
-
 service=Service("C:/Users/surya/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe")  #creates service object
 driver = webdriver.Chrome(service=service)  #initialize chrome using service object
 
